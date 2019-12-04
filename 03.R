@@ -56,7 +56,6 @@ intersections_of_paths <- function(w1,w2){
     for (ws2 in w2){
       intersection = check_for_intersection(ws1, ws2)
       if (intersection) {
-        print(intersection)
         intersections= c(intersections, list(intersection))
       }
     }
